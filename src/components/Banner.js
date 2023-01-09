@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import resume from "../assets/img/Resume-converted.pdf";
+import resume from "../assets/img/Resume.pdf";
 
 export const Banner = () => {
     return (
