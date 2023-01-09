@@ -1,0 +1,106 @@
+/************ Skills Css ************/
+.skill {
+    padding: 0 0 50px 0;
+    position: relative;
+  }
+  .skill-bx {
+    background: #151515;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -60px;
+  }
+  .skill h2 {
+      font-size: 45px;
+      font-weight: 700;
+  }
+  .skill p {
+      color: #B8B8B8;
+      font-size: 18px;
+      letter-spacing: 0.8px;
+      line-height: 1.5em;
+      margin: 14px 0 75px 0;
+  }
+  .skill-slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .skill-slider .item img {
+    width: 50%;
+    margin: 0 auto 15px auto;
+  }
+  .background-image-left {
+    top: 28%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    z-index: -4;
+  }
+
+  @media (min-width: 768px){   
+   .skills_grid-wrapper{
+       grid-template-columns: 1fr 1fr 1fr;
+       }
+  }
+
+  @media (max-width: 576px){
+      .skills_grid-wrapper{
+        background: radial-gradient(circle, rgba(255, 103, 31, 0.6) 0%, rgba(0, 0, 0, 0) 75%);
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+       }
+  }
+  .skills_grid-wrapper{
+    display: grid;
+    grid-gap: 1px;
+    justify-content: center;
+
+    background: radial-gradient(ellipse farthest-side at center, rgba(255, 103, 31, 0.6) 0%, rgba(255, 103, 31, 0.4) 70%, rgba(0, 0, 0, 0) 100%);
+  }
+  .skills_grid-item{
+      position: relative;
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .skills_grid-image{
+    width: 100%;
+    max-width: 250px;
+    padding: 10%;
+    height: auto;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+div {
+    display: block;
+}
+style attribute {
+    --vh: 7.57px;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: "proxima-nova","Helvetica",arial,sans-serif;
+    font-weight: 400;
+    color: #fff;
+    background-color: #000;
+}
+
+/* a {
+    transition: color 200ms,opacity 200ms;
+    cursor: pointer;
+    color: #fff;
+} */
+
+/*  .skills_grid-image {
+    opacity: .4;
+} */
+
+.skills_grid-image {
+    transition: opacity 200ms;
+}
