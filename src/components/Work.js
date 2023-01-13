@@ -36,6 +36,7 @@ export const Work = () => {
                             <li>Expand my ability to develop web apps using Node.js and React</li>
                             <li>become accustomed to using IBM Notes for the development.</li>
                             <li>Update, enhance and maintain existing web solutions</li>
+                            <button><a href="https://monkeyharry53.github.io/Kenna-work-term/" target="_blank" rel="noreferrer">More Details</a></button>
                           </ul>
                         </div>
                       </div>
