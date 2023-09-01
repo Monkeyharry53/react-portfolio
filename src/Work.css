@@ -6,13 +6,30 @@
     padding: 0 0 50px 0;
     position: relative;
 }
-.work-bx {
-    width: 50%;
-    background: #151515;
-    border-radius: 64px;
-    text-align: left;
-    padding: 60px 50px;
-    margin-top: -60px;
+
+
+.h-work-bx-container {
+  /* box-shadow: 0 0 6px rgba(255, 165, 0, 0.5); Add a subtle glow effect */
+  display: flex;
+  width: 100%; /* Take up the full width of the container */
+  margin-top: -60px;
+  right: 0px;
+  overflow-x: auto; /* Allow horizontal scrolling if content overflows */
+}
+
+.h-work-bx {
+  /* Adjust width, padding, and other styles */
+  box-shadow: 0 0 6px rgba(255, 165, 0, 0.5); /* Add a subtle glow effect */
+  width: 95%; /* Take up the full width of the container */
+  max-width: 1600px; /* You can adjust this value as needed */
+  background: #151515;
+  border-radius: 64px;
+  text-align: left;
+  padding: 20px 40px;
+  margin-left: 10px;
+  margin-right: 20px; /* Add some spacing between items */
+  margin-top: 20px;
+  margin-bottom: 80px;
 }
 
 .bold {
@@ -23,11 +40,12 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    width: 100%;
 }
 .work h2 {
   margin-bottom: 70px;
-    font-size: 45px;
-    font-weight: 700;
+  font-size: 45px;
+  font-weight: 700;
 }
 .work p {
     color: #B8B8B8;
@@ -99,4 +117,102 @@
       width: 90%;
     }
    }
+
+
+
+
+   
  
+   .popup {
+    position: fixed;
+    top: 8%;
+    bottom: auto;
+    left: 0;
+    right: 20px;
+    width: 100%;
+    height: 98%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    border-radius: 40px;
+    overflow: hidden;
+  }
+  
+  .popup h3{
+    color: #ff671f;
+  }
+
+ 
+  .popup-content {
+    background-color: #022945;
+    /* background-color: #FFFAFA; */
+    /* background-color: #F0FFF0; */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+  }
+  
+  .popup button {
+    background-color: #ff671f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+
+    position: absolute;
+    bottom: 70px;
+    right: 100px;
+    color: white;
+  
+  }
+
+
+  .nothing{
+    background: #000;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 40px; 
+  }
+  .card {
+    /* background-color: black; */
+    background: #000;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 20px; 
+  }
+
+  .card p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .popup-content::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  .popup-content::-webkit-scrollbar-track {
+    background: #220000; /* Background color of the track */
+    border-radius: 10px;
+  }
+  
+  .popup-content::-webkit-scrollbar-thumb {
+    background: #ff671f; /* Color of the scrollbar thumb */
+    border-radius: 10px;
+  }
+  
