@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "49caafa59fef4eaf74b6",
+    "revision": "9526bfd2e267e8fd64d2",
     "url": "/react-portfolio/static/css/main.5fcc7783.chunk.css"
   },
   {
-    "revision": "49caafa59fef4eaf74b6",
-    "url": "/react-portfolio/static/js/main.49caafa5.chunk.js"
+    "revision": "9526bfd2e267e8fd64d2",
+    "url": "/react-portfolio/static/js/main.9526bfd2.chunk.js"
   },
   {
     "revision": "5cc4c16838a79a03d25d",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/GithubIcon.a0b00583.svg"
   },
   {
-    "revision": "b0b1c5f69f6430f08572f0fe13fd6402",
-    "url": "/react-portfolio/static/media/Resume.b0b1c5f6.pdf"
+    "revision": "0555c779cbe5ce9bc2e6acc02777059d",
+    "url": "/react-portfolio/static/media/Resume.0555c779.pdf"
   },
   {
     "revision": "0342ac591c71cf8f3378e7c881e6f3e2",
@@ -84,15 +84,15 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/CentraNo2-Book.386f0594.ttf"
   },
   {
-    "revision": "4ea3794d631bedab7999678f46b0a162",
-    "url": "/react-portfolio/static/media/CentraNo2-Bold.4ea3794d.ttf"
-  },
-  {
     "revision": "63911e8535278ced52b8a37e819f6f5d",
     "url": "/react-portfolio/static/media/CentraNo2-Medium.63911e85.ttf"
   },
   {
-    "revision": "ffdc4ae326a639cc116e112bb60bd581",
+    "revision": "4ea3794d631bedab7999678f46b0a162",
+    "url": "/react-portfolio/static/media/CentraNo2-Bold.4ea3794d.ttf"
+  },
+  {
+    "revision": "0d58dc09de342ef0ad92d9f77f36d09c",
     "url": "/react-portfolio/index.html"
   }
 ];
