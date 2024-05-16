@@ -1,6 +1,7 @@
 import TCW from "../assets/img/TCW.png";
 import kenna from "../assets/img/kenna.png";
 import DKIL from "../assets/img/City.jpg";
+import NCR from "../assets/img/NCR_Voyix_logo.svg"
 import React, { useState } from 'react';
 
 export const Work = () => {
@@ -19,11 +20,156 @@ export const Work = () => {
   const togglePopupDK = () => {
     setShowPopupDK(!showPopupDK);
   };
+  const [showPopupNCR, setShowPopupNCR] = useState(false);
+  const togglePopupNCR = () => {
+    setShowPopupNCR(!showPopupNCR);
+  };
 
   return (
     <section className="work" id="work">
         <div className="container">
           <h2>Work Experience</h2>
+
+
+          <div className="h-work-bx-container">
+            <div className="h-work-bx wow zoomIn">
+              <img src={NCR} alt="NCR"/>
+              <h3>NCR</h3>
+              <h6><span className="bold">Date:</span> Jan 2024 - April 2024 (4 months)</h6>
+              <h6><span className="bold">Position:</span> Fullstack Software Developer Co-op </h6>
+              <h6><span className="bold">Tech Used:</span> JavaScript, React, Node.js and Java</h6>
+              <h6><span className="bold">Highlights:</span></h6>
+              <ul>
+                <li>Engaged in regression testing and resolved multiple bugs, including Ajax request and frontend issues.</li>
+                <li>Spearheaded the creation of a new PI schema for API, facilitating passport integration.</li>
+                <li>Actively participated in cross-functional projects, enhancing communication and teamwork skills.</li>
+                <li>Successfully completed project tasks involving multiple application components, showcasing understanding of application architecture.</li>
+                <button onClick={togglePopupNCR}>More Details</button>
+              </ul>
+            </div>
+            {/* Pop-up window */}
+            {showPopupNCR && (
+            <div className="popup">
+              <div className="popup-content">
+                <div class="nothing">
+                  <img src={NCR} alt="NCR"/>
+
+                  <h3>NCR<br></br>
+                  Fullstack Software Developer - Co-op	(Jan till April 2024)</h3>
+                  <hr></hr>
+                  <p>This report provides insights into my transformative work term experience at NCR Voyix.
+                    As you delve into the following sections, you'll gain an understanding of the valuable skills
+                    I acquired, new development features I contributed to,and the profound impact these experiences
+                    have had on my professional growth.<br></br>
+                    <h3>Information about the Employer:</h3>
+                    NCR Voyix specializes in delivering advanced technological solutions to various industries including restaurants,
+                    retail, and banking. Their platforms and services aim to enhance efficiency, sales, and user experiences across 
+                    physical and digital realms. As the world's leading digital commerce provider, NCR Voyix offers expertise that helps
+                    businesses scale and transform through innovative point-of-sale (POS) software and customer engagement strategies. 
+                    They focus on empowering clients to provide exceptional service and experiences, driving digital transformation in commerce.
+                    <br></br>
+                    I am working with the CSP Imaging "Trailblazers" team, the team comprised of 4 other Software Enginners and 2 Quality Enginners,
+                    we work on developing new features for passport imaging which includes working with applications used for cheques. All the members 
+                    of my team are supportive, easy to communicate and dedicated towards there work. 
+                  </p>
+                </div>
+
+
+                <div class="row">
+                  <div class="item-center">
+                    <div class="nothing">
+                      <h3>Learning Goals</h3>
+                      <p>
+                        <strong >Goal 1:</strong> Develop Soft Skills:<br></br>
+                        Action Plan:
+                        <li>Participate in team meetings and contribute to discussions.</li>
+                        <li>Work on cross functional project to improve communication, teamwork and project management skills.</li>
+                        Measure of Success:
+                        <li>Receive positive feedback from team members on my communication and collaboration.</li>
+                        <li>Reflect on personal growth in managing tasks and interacting with diverse team members.</li>
+                        <hr></hr>
+                        <strong>Goal 2:</strong> To gain a comprehensive understanding of the application architecture at NCR, including its components, data flow, and integration points.:<br></br>
+                        Action Plan:
+                        <li>Schedule Knowledge Sessions - Arrange Regular meetings with team members or architects to discuss the application's architecture.</li>
+                        <li>Review Documentation - Dedicate time to read through any available technical documentation.</li>
+                        <li>Hands-On Experience - Going through the applications and understanding the data flow.</li>
+                        Measure of Success: 
+                        <li>Demonstrate my understanding by successfully completing a project task or bug fix that involves multiple components of the application.</li>
+                        <li>Successfully explaining the application's architecture, including key components and data flow during review session.</li>
+                        <hr></hr>
+
+                        <strong>Goal 3:</strong> Improve Coding Proficiency:<br></br>
+                        Action Plan:
+                        <li>Learn more about the technologies used in projects.</li>
+                        <li>Try to develop new update that can be useful for the application.</li>
+                        Measure of Success:
+                        <li>Successfully implement features or bug fix with less supervision.</li>
+                        <li>Receive positive feedback on code quality and efficiency from senior developers.</li>
+                        <hr></hr>
+                        These goals collectively fueled my journey at the NCR, equipping me with
+                        skills, experiences, and a broader perspective on financial technology's.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="item-center">
+                    <div class="nothing">
+                      <h3>Job Description</h3>
+                      <p>As a member of the NCR team, my role primarily revolved around regression testing, bug fixes, and
+                        the development of new features for financial technology applications. I actively participated in 
+                        cross-functional projects, contributing to discussions and enhancing communication and teamwork skills.
+                        Additionally, I delved into the intricacies of NCR's application architecture, understanding its
+                        components, data flow, and integration points. This involved scheduling knowledge sessions, reviewing
+                        technical documentation, and gaining hands-on experience with the applications.
+                        <br></br>
+                        <br></br>
+                        One of the significant projects I undertook involved creating a new PI schema for the API, facilitating
+                        passport integration. This task not only required technical prowess but also meticulous attention to
+                        detail and collaboration with team members. Additionally, I wrote unit tests in JUnit to
+                        ensure the robustness and reliability of the newly developed schema.
+                      </p>
+                    </div>
+                  </div>
+                </div> 
+
+                <div class="row">
+                  <div class="item-center">
+                    <div class="nothing">
+                      <h3>Summary</h3>
+                      <p>In conclusion, my time at NCR has been profoundly enriching, both professionally and personally.
+                         Through concerted efforts and dedication, I successfully achieved my learning goals, evidenced
+                          by positive feedback from team members, successful project completions, and improved coding
+                           proficiency. I emerged from this experience equipped with a comprehensive understanding of 
+                           application architecture, enhanced soft skills, and heightened coding proficiency.
+                      </p>
+                    </div>
+                  </div>
+                </div> 
+
+                <div class="row">
+                  <div class="item-center">
+                    <div class="nothing">
+                      <h3>Acknowledgments</h3>
+                        <p>I extend my heartfelt appreciation to the Team for there mentorship, 
+                          guidance, and collaborative spirit.
+                          their collective efforts contributed immensely to my learning and growth.
+                        </p>
+                    </div>
+                  </div>
+                </div> 
+
+                <button onClick={togglePopupNCR}>Close</button>
+              </div>
+            </div>
+            )}
+          </div>
+
+
+
+
+
 
           <div className="h-work-bx-container">
             <div className="h-work-bx wow zoomIn">

@@ -10,8 +10,8 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
 
                         <h1>{' Manjot Singh '}<span className="wrap"></span></h1>
-                        <p>I'm 3rd year Software Engineering Student at University of Guelph.                            
-                        I have a wide range of skills and knowledge in programming, data structures, and software engineering principles.
+                        <p>I'm 4th year Software Engineering Student at University of Guelph.                            
+                        I have a wide range of skills, knowledge in programming, data structures, and software engineering principles.
                         I'm passionate about coding, problem-solving, and learning new technologies.
                         I'm eager to use my skills to create innovative solutions to challenging problems. 
                         </p>
