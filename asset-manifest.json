@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.e6401054.css",
-    "main.js": "/react-portfolio/static/js/main.254b17fc.js",
+    "main.js": "/react-portfolio/static/js/main.4a762419.js",
     "static/js/453.bb257cf5.chunk.js": "/react-portfolio/static/js/453.bb257cf5.chunk.js",
-    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.d86058ea33da24b7b7a4.pdf",
     "static/media/CentraNo2-Bold.ttf": "/react-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/react-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/react-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.a4f6c9a20d27fee3166b.pdf",
     "static/media/Cloud_Services.svg": "/react-portfolio/static/media/Cloud_Services.10e2c8c5cb900cfd5a2609a823dbc591.svg",
     "static/media/City.jpg": "/react-portfolio/static/media/City.2213b647c7cb4c3950fb.jpg",
     "static/media/TCW.png": "/react-portfolio/static/media/TCW.00a1323469d723f127af.png",
@@ -23,11 +23,11 @@
     "static/media/nav-icon1.svg": "/react-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/DataAnalysisVisualization.svg": "/react-portfolio/static/media/DataAnalysisVisualization.ae6b18900f80f960750edb6a05ffebd7.svg",
     "main.e6401054.css.map": "/react-portfolio/static/css/main.e6401054.css.map",
-    "main.254b17fc.js.map": "/react-portfolio/static/js/main.254b17fc.js.map",
+    "main.4a762419.js.map": "/react-portfolio/static/js/main.4a762419.js.map",
     "453.bb257cf5.chunk.js.map": "/react-portfolio/static/js/453.bb257cf5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6401054.css",
-    "static/js/main.254b17fc.js"
+    "static/js/main.4a762419.js"
   ]
 }
